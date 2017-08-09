@@ -1,6 +1,6 @@
 li {
-  list-style-type: none;
-  color: #e40007;
+
+  color: #414c41;
 }
 
 @media screen and (min-width: 300px) {
@@ -11,6 +11,6 @@ li {
 
 @media screen and (min-width: 500px) {
   .col-md-3 {
-    background-color: purple;
+    background-color: #86d68a;
   }
 }
