@@ -1,16 +1,44 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+body {
+  margin: 50px 15px;
+  background-color: #ffff00;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
-  }
+.header {
+  background-color: #0000ff;
+  border: 1px solid #000;
+  height: 200px;
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
-  }
+.nav {
+  background-color: #008000;
+  border: 1px solid #000;
+  height: 75px;
+}
+
+.content {
+  background-color: #ff0000;
+  border: 1px solid #000;
+  height: 250px;
+}
+
+.aside {
+  background-color: #00ffff;
+  border: 1px solid #000;
+  height: 250px;
+}
+
+.promo {
+  background-color: #ffa500;
+  border: 1px solid #000;
+  height: 200px;
+}
+
+.footer {
+  background-color: #000;
+  border: 1px solid #000;
+  height: 75px;
+}
+
+.footer h2 {
+  color: white;
 }
