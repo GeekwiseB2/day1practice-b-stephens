@@ -42,3 +42,56 @@ body {
 .footer h2 {
   color: white;
 }
+
+@media screen and (min-width: 575px) {
+
+  .header {
+    background-color: #aaa044;
+  }
+
+  .nav {
+    background-color: #e2b7c2;
+  }
+
+  .content {
+    background-color: #e06b11;
+  }
+
+  .aside {
+    background-color: #bed849;
+  }
+
+  .promo {
+    background-color: #42e5da;
+  }
+
+  .footer {
+    background-color: #e54242;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    background-color: #f2f0e3;
+  }
+
+  .nav {
+    background-color: #37d6ab;
+  }
+
+  .content {
+    background-color: #3757d6;
+  }
+
+  .aside {
+    background-color: #9e0e1f;
+  }
+
+  .promo {
+    background-color: #d6ed44;
+  }
+
+  .footer {
+    background-color: #58ed44;
+  }
+}
